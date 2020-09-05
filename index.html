@@ -1,537 +1,596 @@
 <!DOCTYPE html>
 <html lang="en"> 
 
+<!-- Mirrored from themes.3rdwavemedia.com/instance/bs4/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 05 Sep 2020 14:05:06 GMT -->
 <head>
-	<title>Mounir Dagana | Full Stack web developer</title>
-	
-	<!-- Meta -->
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="Mounir dagana Full Stack web developer">
-	<meta name="author" content="Mounir Dagana">    
-	<link rel="shortcut icon" href="favicon.ico"> 
-	
-	<!-- Google Fonts -->
-	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
-	
-	<!-- FontAwesome JS -->
+    <title>Bootstrap 4 Portfolio Template For Developers</title>
+    
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Responsive Portfolio Template">
+    <meta name="author" content="Xiaoying Riley at 3rd Wave Media">    
+    <link rel="shortcut icon" href="favicon.ico"> 
+    
+    <!-- Google Font -->
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,500,400italic,300italic,300,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    
+    <!-- FontAwesome JS -->
     <script defer src="assets/fontawesome/js/all.js"></script>
     
-    <!-- Plugin CSS -->
-    <link rel="stylesheet" href="assets/plugins/tiny-slider/tiny-slider.css">
+    <!-- Plugins CSS -->
+    <link rel="stylesheet" href="assets/plugins/flickity/flickity.min.css">
+    
+    
+    <!-- Theme CSS -->  
+    <link id="theme-style" rel="stylesheet" href="assets/css/theme-1.css">
+    
+    <!-- Facebook Pixel Code -->
+	<script>
+	!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+	n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+	n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+	t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+	document,'script','../../../connect.facebook.net/en_US/fbevents.js');
+	
+	fbq('init', '1506230579705064');
+	fbq('track', "PageView");</script>
+	<noscript><img height="1" width="1" style="display:none"
+	src="https://www.facebook.com/tr?id=1506230579705064&amp;ev=PageView&amp;noscript=1"
+	/></noscript>
+	<!-- End Facebook Pixel Code -->
+	
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-24707561-43"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+	
+	  gtag('config', 'UA-24707561-43');
+	</script>
 
-	<!-- Theme CSS -->  
-	<link id="theme-style" rel="stylesheet" href="assets/css/theme-1.css">
 
 </head> 
 
 <body>
+    
+    <header class="header">
+	    
+        <div class="top-bar theme-bg-primary-darken">
+            
+            <div class="container-fluid">
+            
+				<nav class="navbar navbar-expand-lg navbar-dark position-relative">
+					
+					
+					<ul class="social-list list-inline mb-0">
+			            <li class="list-inline-item"><a class="text-white" href="#"><i class="fab fa-twitter fa-fw"></i></a></li>
+		                <li class="list-inline-item"><a class="text-white" href="#"><i class="fab fa-linkedin-in fa-fw"></i></a></li>
+		                <li class="list-inline-item"><a class="text-white" href="#"><i class="fab fa-github-alt fa-fw"></i></a></li>
+		                <li class="list-inline-item"><a class="text-white" href="#"><i class="fab fa-stack-overflow fa-fw"></i></a></li>
+		                <li class="list-inline-item"><a class="text-white" href="#"><i class="fab fa-codepen fa-fw"></i></a></li>
+		            </ul><!--//social-list-->
+					
 	
-	<header class="header text-center">	    
-		<div class="force-overflow">
-			<h1 class="blog-name pt-lg-4 mb-0"><a href="index.html">Mounir Dagana</a></h1>
-			
-			<nav class="navbar navbar-expand-lg navbar-dark" >
-				
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
-				</button>
-				
-				<div id="navigation" class="collapse navbar-collapse flex-column" >
-					<div class="profile-section pt-3 pt-lg-0">
-						<img class="profile-image mb-3 rounded-circle mx-auto" src="assets/images/profile.png" alt="image" >			
-						
-						<div class="bio mb-3">Hi, my name is Mounir Dagana and I'm a Full Stack web developer. Welcome to my personal website!</div><!--//bio-->
-						<ul class="social-list list-inline py-2 mx-auto">
-							<li class="list-inline-item"><a href="#"><i class="fab fa-twitter fa-fw"></i></a></li>
-							<li class="list-inline-item"><a href="#"><i class="fab fa-linkedin-in fa-fw"></i></a></li>
-							<li class="list-inline-item"><a href="#"><i class="fab fa-github-alt fa-fw"></i></a></li>
-							<li class="list-inline-item"><a href="#"><i class="fab fa-stack-overflow fa-fw"></i></a></li>
-							<li class="list-inline-item"><a href="#"><i class="fab fa-codepen fa-fw"></i></a></li>
-						</ul><!--//social-list-->
-						<hr> 
-					</div><!--//profile-section-->
+					</button>
 					
-					<ul class="navbar-nav flex-column text-left">
-						<li class="nav-item active">
-							<a class="nav-link" href="index.html"><i class="fas fa-user fa-fw mr-2"></i>About Me<span class="sr-only">(current)</span></a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="portfolio.html"><i class="fas fa-laptop-code fa-fw mr-2"></i>Portfolio</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="services.html"><i class="fas fa-briefcase fa-fw mr-2"></i>Services &amp; Pricing</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="resume.html"><i class="fas fa-file-alt fa-fw mr-2"></i>Resume</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="blog-home.html"><i class="fas fa-blog fa-fw mr-2"></i>Blog</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="contact.html"><i class="fas fa-envelope-open-text fa-fw mr-2"></i>Contact</a>
-						</li>
-						<li class="nav-item dropdown">
-							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-								<i class="fas fa-cogs fa-fw mr-2"></i>More Pages
-							</a>
-							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-								<a class="dropdown-item" href="project.html">Project Page</a>
-								<a class="dropdown-item" href="blog-home.html">Blog Home 1</a>
-								<a class="dropdown-item" href="blog-home-alt.html">Blog Home 2</a>
-								<a class="dropdown-item" href="blog-post.html">Blog Post</a>
-							</div>
-						</li>
-					</ul>
-					
-					<div class="my-2">
-						<a class="btn btn-primary" href="contact.html" target="_blank"><i class="fas fa-paper-plane mr-2"></i>Hire Me</a>
+					<div class="collapse navbar-collapse text-uppercase" id="navigation">
+						<ul class="navbar-nav ml-lg-auto">
+							<li class="nav-item active mr-lg-3">
+							    <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
+							</li>
+							<li class="nav-item mr-lg-3">
+							   <a class="nav-link" href="projects.html">Projects</a>
+							</li>
+							<li class="nav-item mr-lg-3">
+							    <a class="nav-link" href="talks.html">Talks</a>
+							</li>
+							<li class="nav-item mr-lg-3">
+							    <a class="nav-link" href="blog.html">Blog</a>
+							</li>
+							<li class="nav-item mr-lg-3">
+							    <a class="nav-link" href="resume.html">Resume</a>
+							</li>
+							<li class="nav-item mr-lg-3">
+							    <a class="nav-link" href="contact.html">Contact</a>
+							</li>
+							<li class="nav-item dropdown mr-0">
+							    <a class="nav-link dropdown-toggle" href="#" id="navigationLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Pages
+								</a>
+								<div class="dropdown-menu dropdown-menu-right text-capitalize shadow-lg" aria-labelledby="navigationLink">
+									<a class="dropdown-item" href="project.html">Project Case Study (1 Column)</a>
+									<a class="dropdown-item" href="project-alt.html">Project Case Study (2 Columns)</a>
+									<a class="dropdown-item" href="blog-post.html">Blog Post</a>
+								</div>
+							</li>
+							
+						</ul>
+						<span id="slide-line"></span>
 					</div>
 					
-	
-					<div class="dark-mode-toggle text-center w-100">
-						<hr class="mb-4">
-					    <h4 class="toggle-name mb-3 "><i class="fas fa-adjust mr-1"></i>Dark Mode</h4>
-					    
-					    <input class="toggle" id="darkmode" type="checkbox">
-					    <label class="toggle-btn mx-auto mb-0" for="darkmode"></label>
-					    
-					</div><!--//dark-mode-toggle-->
 					
-				</div>
-			</nav>
-		</div><!--//force-overflow-->
-	</header>
-	
-	<div class="main-wrapper">
-		
-		<section class="about-me-section p-3 p-lg-5 theme-bg-light">
-			<div class="container">
-				<div class="profile-teaser media flex-column flex-lg-row">
 					
-					<div class="media-body">
-						<h2 class="name font-weight-bold mb-1">Mounir Dagana</h2>
-						<div class="tagline mb-3">Full Stack web developer</div>
-						<div class="bio mb-4">I'm a web developer specialised in frontend and backend development for complex scalable web apps. I write about software development on <a class="link-on-bg" href="blog-home.html">my blog</a>. Want to know how I may help your project? Check out my project <a class="link-on-bg" href="projects.html">portfolio</a> and <a class="link-on-bg" href="resume.html">online resume</a>.
-						</div><!--//bio-->
-						<div class="mb-4">
-							<a class="btn btn-primary mr-2 mb-3" href="portfolio.html"><i class="fas fa-arrow-alt-circle-right mr-2"></i><span class="d-none d-md-inline">View</span> Portfolio</a>
-							<a class="btn btn-secondary mb-3" href="resume.html"><i class="fas fa-file-alt mr-2"></i><span class="d-none d-md-inline">View</span> Resume</a>
-						</div>
+				</nav>
+            
+            </div><!--//container-->
+            
+        </div><!--//top-bar-->
+        
+        <div class="header-intro theme-bg-primary text-white py-5">
+	        <div class="container">
+		        <div class="profile-teaser media flex-column flex-md-row">
+				    <img class="profile-image mb-3 mb-md-0 mr-md-5 ml-md-0 rounded mx-auto" src="assets/images/profile.jpg" alt="">
+					<div class="media-body text-center text-md-left">
+					<div class="lead">Hello, my name is</div>
+					<h2 class="mt-0 display-4 font-weight-bold">Steve Doe</h2>
+					<div class="bio mb-3">I'm a full-stack developer specialised in frontend and backend development for complex scalable web apps. I write about web development on <a class="link-on-bg" href="blog.html">my blog</a> and regularly <a class="link-on-bg" href="talks.html">speak</a> at various web conferences and meetups. Want to know how I may help your project? Check out my project <a class="link-on-bg" href="projects.html">case studies</a> and <a class="link-on-bg" href="resume.html">resume</a>.
+					</div><!--//bio-->
+					<a class="theme-btn-on-bg btn font-weight-bold theme-btn-cta" href="contact.html">Hire Me</a>
+					
 					</div><!--//media-body-->
-					<img class="profile-image mb-3 mb-lg-0 ml-lg-5 mr-md-0" src="assets/images/profile-lg.jpg" alt="">
-				</div>
-			</div>
-		</section><!--//about-me-section-->
-		
-		<section class="overview-section p-3 p-lg-5">
-			<div class="container">
-				<h2 class="section-title font-weight-bold mb-3">What I do</h2>
-				<div class="section-intro mb-5">I have more than 10 years' experience building software for clients all over the world. Below is a quick overview of my main technical skill sets and technologies I use. Want to find out more about my experience? Check out my <a href="resume.html">online resume</a> and <a href="portfolio.html">project portfolio</a>.</div>
-				<div class="row">
-					<div class="item col-6 col-lg-3">
-						<div class="item-inner">
-							<div class="item-icon"><i class="fab fa-js-square"></i></div>
-							<h3 class="item-title">Vanilla JavaScript</h3>
-							<div class="item-desc">List skills/technologies here. You can change the icon above to any of the 1500+ <a class="theme-link" href="https://fontawesome.com/" target="_blank">FontAwesome 5 free icons</a> available. Aenean commodo ligula eget dolor.</div>
-						</div><!--//item-inner-->
-					</div><!--//item-->
-					<div class="item col-6 col-lg-3">
-						<div class="item-inner">
-							<div class="item-icon"><i class="fab fa-angular mr-2"></i><i class="fab fa-react mr-2"></i><i class="fab fa-vuejs"></i></div>
-							<h3 class="item-title">Angular, React &amp;  Vue</h3>
-							<div class="item-desc">List skills/technologies here. You can change the icon above to any of the 1500+ <a class="theme-link" href="https://fontawesome.com/" target="_blank">FontAwesome 5 free icons</a> available. Aenean commodo ligula eget dolor.  </div>
-						</div><!--//item-inner-->
-					</div><!--//item-->
-					
-					<div class="item col-6 col-lg-3">
-						<div class="item-inner">
-							<div class="item-icon"><i class="fab fa-node-js"></i></div>
-							<h3 class="item-title">Node.js</h3>
-							<div class="item-desc">List skills/technologies here. You can change the icon above to any of the 1500+ <a class="theme-link" href="https://fontawesome.com/" target="_blank">FontAwesome 5 free icons</a> available. Aenean commodo ligula eget dolor.  </div>
-						</div><!--//item-inner-->
-					</div><!--//item-->
-					
-					<div class="item col-6 col-lg-3">
-						<div class="item-inner">
-							<div class="item-icon"><i class="fab fa-python"></i></div>
-							<h3 class="item-title">Python &amp; Django</h3>
-							<div class="item-desc">List skills/technologies here. You can change the icon above to any of the 1500+ <a class="theme-link" href="https://fontawesome.com/" target="_blank">FontAwesome 5 free icons</a> available. Aenean commodo ligula eget dolor.  </div>
-						</div><!--//item-inner-->
-					</div><!--//item-->
-					<div class="item col-6 col-lg-3">
-						<div class="item-inner">
-							<div class="item-icon"><i class="fab fa-php"></i></div>
-							<h3 class="item-title">PHP</h3>
-							<div class="item-desc">List skills/technologies here. You can change the icon above to any of the 1500+ <a class="theme-link" href="https://fontawesome.com/" target="_blank">FontAwesome 5 free icons</a> available. Aenean commodo ligula eget dolor.  </div>
-						</div><!--//item-inner-->
-					</div><!--//item-->
-					<div class="item col-6 col-lg-3">
-						<div class="item-inner">
-							<div class="item-icon"><i class="fab fa-npm mr-2"></i><i class="fab fa-gulp mr-2"></i><i class="fab fa-grunt"></i></div>
-							<h3 class="item-title">npm, Gulp &amp; Grunt</h3>
-							<div class="item-desc">List skills/technologies here. You can change the icon above to any of the 1500+ <a class="theme-link" href="https://fontawesome.com/" target="_blank">FontAwesome 5 free icons</a> available. Aenean commodo ligula eget dolor.  </div>
-						</div><!--//item-inner-->
-					</div><!--//item-->
-					<div class="item col-6 col-lg-3">
-						<div class="item-inner">
-							<div class="item-icon"><i class="fab fa-html5 mr-2"></i><i class="fab fa-css3-alt"></i></div>
-							<h3 class="item-title">HTML &amp; CSS</h3>
-							<div class="item-desc">List skills/technologies here. You can change the icon above to any of the 1500+ <a class="theme-link" href="https://fontawesome.com/" target="_blank">FontAwesome 5 free icons</a> available. Aenean commodo ligula eget dolor.  </div>
-						</div><!--//item-inner-->
-					</div><!--//item-->
-					<div class="item col-6 col-lg-3">
-						<div class="item-inner">
-							<div class="item-icon"><i class="fab fa-sass mr-2"></i><i class="fab fa-less"></i></div>
-							<h3 class="item-title">Sass &amp; LESS</h3>
-							<div class="item-desc">List skills/technologies here. You can change the icon above to any of the 1500+ <a class="theme-link" href="https://fontawesome.com/" target="_blank">FontAwesome 5 free icons</a> available. Aenean commodo ligula eget dolor.  </div>
-						</div><!--//item-inner-->
-					</div><!--//item-->
-				</div><!--//row-->
-				<div class="text-center py-3"><a href="services.html" class="btn btn-primary"><i class="fas fa-arrow-alt-circle-right mr-2"></i>Services &amp; Pricing
-					
-				</a></div>
-				
-			</div><!--//container-->
-		</section>
-		
-		<div class="container"><hr></div>
-		
-		<section class="testimonials-section p-3 p-lg-5">
-			<div class="container">
-				<h2 class="section-title font-weight-bold mb-5">Testimonials</h2>
-				
-				<div class="testiomonial-carousel-container">
-					<div class="testimonial-carousel  tiny-slider">
-	                    <div class="item">
-							<div class="item-inner">
-								<div class="quote-holder">
-									<blockquote class="quote-content">
-										Mounir is a brilliant software engineer! Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis.
-									</blockquote>
-									<i class="fas fa-quote-left"></i>
-								</div><!--//quote-holder-->
-								<div class="source-holder">
-									<div class="source-profile">
-										<img src="assets/images/clients/profile-1.png" alt="image"/>
-									</div>
-									<div class="meta">
-										<div class="name">Brandon James</div>
-										<div class="info">Project Manager, Google</div>
-									</div>
-								</div>
-							</div><!--//item-inner-->
-						</div><!--//item-->
-						
-						<div class="item">
-							<div class="item-inner">
-								<div class="quote-holder">
-									<blockquote class="quote-content">
-										Mounir is a brilliant software engineer! Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis.
-									</blockquote>
-									<i class="fas fa-quote-left"></i>
-								</div><!--//quote-holder-->
-								<div class="source-holder">
-									<div class="source-profile">
-										<img src="assets/images/clients/profile-2.png" alt="image"/>
-									</div>
-									<div class="meta">
-										<div class="name">Kate Sanders</div>
-										<div class="info">Project Manager, Uber</div>
-									</div>
-								</div>
-							</div><!--//item-inner-->
-						</div><!--//item-->
-						
-						<div class="item">
-							<div class="item-inner">
-								<div class="quote-holder">
-									<blockquote class="quote-content">
-										Mounir is a brilliant software engineer! Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis.
-									</blockquote>
-									<i class="fas fa-quote-left"></i>
-								</div><!--//quote-holder-->
-								<div class="source-holder">
-									<div class="source-profile">
-										<img src="assets/images/clients/profile-3.png" alt="image"/>
-									</div>
-									<div class="meta">
-										<div class="name">James Lee</div>
-										<div class="info">Product Manager, Amazon</div>
-									</div>
-								</div>
-						    </div><!--//item-inner-->
-						</div><!--//item-->
-						
-						<div class="item">
-							<div class="item-inner">
-								<div class="quote-holder">
-									<blockquote class="quote-content">
-										Mounir is a brilliant software engineer! Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis.
-									</blockquote>
-									<i class="fas fa-quote-left"></i>
-								</div><!--//quote-holder-->
-								<div class="source-holder">
-									<div class="source-profile">
-										<img src="assets/images/clients/profile-4.png" alt="image"/>
-									</div>
-									<div class="meta">
-										<div class="name">James Lee</div>
-										<div class="info">Product Manager, Amazon</div>
-									</div>
-								</div>
-						    </div><!--//item-inner-->
-						</div><!--//item-->
-						
-						<div class="item">
-							<div class="item-inner">
-								<div class="quote-holder">
-									<blockquote class="quote-content">
-										Mounir is a brilliant software engineer! Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis.
-									</blockquote>
-									<i class="fas fa-quote-left"></i>
-								</div><!--//quote-holder-->
-								<div class="source-holder">
-									<div class="source-profile">
-										<img src="assets/images/clients/profile-5.png" alt="image"/>
-									</div>
-									<div class="meta">
-										<div class="name">Olivia White</div>
-										<div class="info">Product Manager, Dropbox</div>
-									</div>
-								</div>
-						    </div><!--//item-inner-->
-						</div><!--//item-->
-						
-						<div class="item">
-							<div class="item-inner">
-								<div class="quote-holder">
-									<blockquote class="quote-content">
-										Mounir is a brilliant software engineer! Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis.
-									</blockquote>
-									<i class="fas fa-quote-left"></i>
-								</div><!--//quote-holder-->
-								<div class="source-holder">
-									<div class="source-profile">
-										<img src="assets/images/clients/profile-6.png" alt="image"/>
-									</div>
-									<div class="meta">
-										<div class="name">Samuel Reyes</div>
-										<div class="info">CTO, StartupHub</div>
-									</div>
-								</div>
-						    </div><!--//item-inner-->
-						</div><!--//item-->
-					</div><!--//testimonial-carousel-->	
-				</div><!--//testimonial-carousel-container-->	
-			</div><!--//container-->
-		</section><!--//testimonials-section-->
-		
-		<div class="container"><hr></div>
-		
-		<section class="featured-section p-3 p-lg-5">
-			<div class="container">
-				<h2 class="section-title font-weight-bold mb-5">Featured Projects</h2>
-				<div class="row">
-					<div class="col-md-6 mb-5">
-						<div class="card project-card">
-							<div class="row no-gutters">
-								<div class="col-lg-4 card-img-holder">
-									<img src="assets/images/project/project-1.jpg" class="card-img" alt="image">
-								</div>
-								<div class="col-lg-8">
-									<div class="card-body">
-										<h5 class="card-title"><a href="project.html" class="theme-link">Project Heading</a></h5>
-										<p class="card-text">Project intro lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cum sociis natoque penatibus et magnis dis parturient montes.</p>
-										<p class="card-text"><small class="text-muted">Client: Google</small></p>
-									</div>
-								</div>
-							</div>
-							<div class="link-mask">
-								<a class="link-mask-link" href="project.html"></a>
-								<div class="link-mask-text">
-									<a class="btn btn-secondary" href="project.html">
-										<i class="fas fa-eye mr-2"></i>View Case Study
-									</a>
-								</div>
-							</div><!--//link-mask-->
-						</div><!--//card-->
-					</div><!--//col-->
-					<div class="col-md-6 mb-5">	
-						<div class="card project-card">
-							<div class="row no-gutters">
-								<div class="col-lg-4 card-img-holder">
-									<img src="assets/images/project/project-2.jpg" class="card-img" alt="image">
-								</div>
-								<div class="col-lg-8">
-									<div class="card-body">
-										<h5 class="card-title"><a href="project.html" class="theme-link">Project Heading</a></h5>
-										<p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
-										<p class="card-text"><small class="text-muted">Client: Dropbox</small></p>
-									</div>
-								</div>
-							</div>
-							<div class="link-mask">
-								<a class="link-mask-link" href="project.html"></a>
-								<div class="link-mask-text">
-									<a class="btn btn-secondary" href="project.html">
-										<i class="fas fa-eye mr-2"></i>View Case Study
-									</a>
-								</div>
-							</div><!--//link-mask-->
-						</div><!--//card-->
-					</div><!--//col-->
-					<div class="col-md-6 mb-5">
-						<div class="card project-card">
-							<div class="row no-gutters">
-								<div class="col-lg-4 card-img-holder">
-									<img src="assets/images/project/project-3.jpg" class="card-img" alt="image">
-								</div>
-								<div class="col-lg-8">
-									<div class="card-body">
-										<h5 class="card-title"><a href="project.html" class="theme-link">Project Heading</a></h5>
-										<p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
-										<p class="card-text"><small class="text-muted">Client: Google</small></p>
-									</div>
-								</div>
-							</div>
-							<div class="link-mask">
-								<a class="link-mask-link" href="project.html"></a>
-								<div class="link-mask-text">
-									<a class="btn btn-secondary" href="project.html">
-										<i class="fas fa-eye mr-2"></i>View Case Study
-									</a>
-								</div>
-							</div><!--//link-mask-->
-						</div><!--//card-->
-					</div><!--//col-->
-					<div class="col-md-6 mb-5">
-						<div class="card project-card">
-							<div class="row no-gutters">
-								<div class="col-lg-4 card-img-holder">
-									<img src="assets/images/project/project-4.jpg" class="card-img" alt="image">
-								</div>
-								<div class="col-lg-8">
-									<div class="card-body">
-										<h5 class="card-title"><a href="project.html" class="theme-link">Project Heading</a></h5>
-										<p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
-										<p class="card-text"><small class="text-muted">Client: Uber</small></p>
-									</div>
-								</div>
-							</div>
-							<div class="link-mask">
-								<a class="link-mask-link" href="project.html"></a>
-								<div class="link-mask-text">
-									<a class="btn btn-secondary" href="project.html">
-										<i class="fas fa-eye mr-2"></i>View Case Study
-									</a>
-								</div>
-							</div><!--//link-mask-->
-						</div><!--//card-->
-					</div><!--//col-->
-				</div><!--//row-->
-				<div class="text-center py-3"><a href="portfolio.html" class="btn btn-primary"><i class="fas fa-arrow-alt-circle-right mr-2"></i>View Portfolio</a></div>
-				
-			</div><!--//container-->
-		</section><!--//featured-section-->
-		
-		<div class="container"><hr></div>
-		
-		<section class="latest-blog-section p-3 p-lg-5">
-			<div class="container">
-				<h2 class="section-title font-weight-bold mb-5">Latest Blog Posts</h2>
-				<div class="row">
-					<div class="col-md-4 mb-5">
-						<div class="card blog-post-card">
-							<img class="card-img-top" src="assets/images/blog/blog-post-thumb-card-1.jpg" alt="image">
-							<div class="card-body">
-								<h5 class="card-title"><a class="theme-link" href="blog-post.html">Top 3 JavaScript Frameworks</a></h5>
-								<p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient...</p>
-								<p class="mb-0"><a class="more-link" href="blog-post.html">Read more &rarr;</a></p>
-								
-							</div>
-							<div class="card-footer">
-								<small class="text-muted">Published 2 days ago</small>
-							</div>
-						</div><!--//card-->
-					</div><!--//col-->
-					<div class="col-md-4 mb-5">
-						<div class="card blog-post-card">
-							<img class="card-img-top" src="assets/images/blog/blog-post-thumb-card-2.jpg" alt="image">
-							<div class="card-body">
-								<h5 class="card-title"><a class="theme-link" href="blog-post.html">About Remote Working</a></h5>
-								<p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient...</p>
-								<p class="mb-0"><a class="more-link" href="blog-post.html">Read more &rarr;</a></p>
-							</div>
-							<div class="card-footer">
-								<small class="text-muted">Published a week ago</small>
-								
-							</div>
-						</div><!--//card-->
-					</div><!--//col-->
-					<div class="col-md-4 mb-5">
-						<div class="card blog-post-card">
-							<img class="card-img-top" src="assets/images/blog/blog-post-thumb-card-3.jpg" alt="image">
-							<div class="card-body">
-								<h5 class="card-title"><a class="theme-link" href="blog-post.html">A Guide to Becoming a Full-Stack Developer</a></h5>
-								<p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient...</p>
-								<p class="mb-0"><a class="more-link" href="blog-post.html">Read more &rarr;</a></p>
-							</div>
-							<div class="card-footer">
-								<small class="text-muted">Published 3 weeks ago</small>
-							</div>
-						</div><!--//card-->
-					</div><!--//col-->
-				</div><!--//row-->
-				<div class="text-center py-3"><a href="blog-home.html" class="btn btn-primary"><i class="fas fa-arrow-alt-circle-right mr-2"></i>View Blog</a></div>
-			</div><!--//container-->
-			
-		</section><!--//latest-blog-section-->
+				</div><!--//profile-teaser-->
+		        
+	        </div><!--//container-->
+        </div><!--//header-intro-->
+        
+    </header><!--//header-->
+        
+    <section class="skills-section section py-5">
+        <div class="container">
+	        <h3 class="section-title font-weight-bold text-center mb-3">Skills Overview</h3>
+	        <div class="section-intro mx-auto text-center mb-5 text-secondary">I have more than 8 years' experience building rich web applications for clients all over the world. Below is a quick overview of my main technical skill sets and tools I use. Want to find out more about my experience? <a href="resume.html">Check out my online resume</a>.</div>
+	        
+	        <div class="skills-blocks mx-auto pt-5">
+		        <div class="row">
+			        <div class="skills-block col-12 col-lg-4 mb-5 mb-3 mb-lg-0">
+				        <div class="skills-block-inner bg-white shadow-sm py-4 px-5 position-relative">
+					        <h4 class="skills-cat text-center mb-3 mt-5">Frontend</h4>
+					        <div class="skills-icon-holder position-absolute d-inline-block rounded-circle text-center">
+					            <img class="skills-icon" src="assets/images/frontend-icon.svg">
+					        </div>
+					        <ul class="skills-list list-unstyled text-secondary">
+						        <li class="mb-2"><i class="fas fa-check mr-2 text-primary"></i>React/Redux/Angular</li>
+						        <li class="mb-2"><i class="fas fa-check mr-2 text-primary"></i>Javascript</li>
+						        <li class="mb-2"><i class="fas fa-check mr-2 text-primary"></i>Node.js</li>							        
+						        <li class="mb-2"><i class="fas fa-check mr-2 text-primary"></i>Webpack/Gulp/Grunt</li>
+						        <li class="mb-2"><i class="fas fa-check mr-2 text-primary"></i>HTML/CSS/SASS/LESS</li>
+					        </ul>
+				        </div><!--//skills-block-inner-->
+			        </div><!--//skills-block-->
+			        
+			        <div class="skills-block col-12 col-lg-4 mb-5 mb-3 mb-lg-0">
+				        <div class="skills-block-inner bg-white shadow-sm py-4 px-5 position-relative">
+					        <h4 class="skills-cat text-center mb-3 mt-5">Backend</h4>
+					        <div class="skills-icon-holder position-absolute d-inline-block rounded-circle text-center">
+					            <img class="skills-icon" src="assets/images/backend-icon.svg">
+					        </div>
+					        <ul class="skills-list list-unstyled text-secondary">
+						        <li class="mb-2"><i class="fas fa-check mr-2 text-primary"></i>Python/Django</li>
+						        <li class="mb-2"><i class="fas fa-check mr-2 text-primary"></i>Ruby/Rails</li>
+						        <li class="mb-2"><i class="fas fa-check mr-2 text-primary"></i>PHP</li>
+						        <li class="mb-2"><i class="fas fa-check mr-2 text-primary"></i>PostgresSQL/MySQL</li>
+						        <li class="mb-2"><i class="fas fa-check mr-2 text-primary"></i>MongoDB</li>
+					        </ul>
+				        </div><!--//skills-block-inner-->
+			        </div><!--//skills-block-->
+			        
+			        <div class="skills-block col-12 col-lg-4">
+				        <div class="skills-block-inner bg-white shadow-sm py-4 px-5 position-relative">
+					        <h4 class="skills-cat text-center mb-3 mt-5">Others</h4>
+					        <div class="skills-icon-holder position-absolute d-inline-block rounded-circle text-center">
+					            <img class="skills-icon" src="assets/images/other-skills-icon.svg">
+					        </div>
+					        <ul class="skills-list list-unstyled text-secondary">
+						        <li class="mb-2"><i class="fas fa-check mr-2 text-primary"></i>DevOps</li>
+						        <li class="mb-2"><i class="fas fa-check mr-2 text-primary"></i>Unit Testing</li>
+						        <li class="mb-2"><i class="fas fa-check mr-2 text-primary"></i>UX/Wireframing</li>
+						        <li class="mb-2"><i class="fas fa-check mr-2 text-primary"></i>Sketch/Balsamiq</li>
+						        <li class="mb-2"><i class="fas fa-check mr-2 text-primary"></i>Wordpress/Shopify</li>
+					        </ul>
+				        </div><!--//skills-block-inner-->
+			        </div><!--//skills-block-->
+			        
+		        </div><!--//row-->
+	        </div>
+        </div><!--//container-->
+    </section><!--//skills-section-->
+    
+    <section class="section-proof section bg-white py-5">
+        <div class="container">
+	        <h3 class="section-title font-weight-bold text-center mb-5">Great clients I've worked with</h3>
+	        <div class="logos row mb-5">
+		        <div class="logo px-3 col-6 col-md-4 col-lg-2 mr-0 px-md-5 px-lg-4"><a class="logo-link" href="project.html"><img class="img-fluid svg-ie-fix" src="assets/images/logos/logo-1.svg"></a></div>
+		        <div class="logo px-3 col-6 col-md-4 col-lg-2 mr-0 px-md-5 px-lg-4"><a class="logo-link" href="project.html"><img class="img-fluid svg-ie-fix" src="assets/images/logos/logo-2.svg"></a></div>
+		        <div class="logo px-3 col-6 col-md-4 col-lg-2 mr-0 px-md-5 px-lg-4"><a class="logo-link" href="project.html"><img class="img-fluid svg-ie-fix" src="assets/images/logos/logo-3.svg"></a></div>
+		        <div class="logo px-3 col-6 col-md-4 col-lg-2 mr-0 px-md-5 px-lg-4"><a class="logo-link" href="project.html"><img class="img-fluid svg-ie-fix" src="assets/images/logos/logo-4.svg"></a></div>
+		        <div class="logo px-3 col-6 col-md-4 col-lg-2 mr-0 px-md-5 px-lg-4"><a class="logo-link" href="project.html"><img class="img-fluid svg-ie-fix" src="assets/images/logos/logo-5.svg"></a></div>
+		        <div class="logo px-3 col-6 col-md-4 col-lg-2 mr-0 px-md-5 px-lg-4"><a class="logo-link" href="project.html"><img class="img-fluid svg-ie-fix" src="assets/images/logos/logo-6.svg"></a></div>
+	        </div>
+	        
+	        
+        </div>
+        
+        <div class="container-fluid">
+        
+	        <div class="testimonials">
+			        
+		        <div class="testimonial-item">				        
+			        <div class="position-relative p-5 shadow">
+				        <blockquote class="blockquote pl-4">
+						  <p class="mb-4">Steve is a great developer! Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto.</p>
+						  <i class="quote-icon fas fa-quote-left fa-lg position-absolute text-primary"></i>
+						  <footer class="blockquote-footer presudo-hidden">
+							   <div class="media client-profile flex-column flex-md-row">
+								   <img class="mr-md-3" src="assets/images/clients/profile-1.jpg" alt="">
+							       <cite title="Source" class="quote-source d-inline-block font-style-normal pt-3">
+							           <span class="d-block">Adam Wells</span>
+							           <span class="d-block">Product Manager, Google</span>
+							           <span class="d-block position-absolute source-link"><i class="fab fa-linkedin fa-2x mr-1" data-fa-transform="down-3"></i> <a class="text-secondary" href="#" target="_blank">View on Linkedin <i class="fas fa-external-link-alt ml-1" data-fa-transform="up-1"></i></a></span>
+							       </cite>
+							   </div><!--//media-->
+						  </footer>
+						</blockquote>
+			        </div>
+		        </div><!--//testimonial-item-->
+		        
+		        <div class="testimonial-item">				        
+			        <div class="position-relative p-5 shadow">
+				        <blockquote class="blockquote pl-4">
+						  <p class="mb-4">Steve is a great developer! Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto.</p>
+						  <i class="quote-icon fas fa-quote-left position-absolute text-primary"></i>
+						  <footer class="blockquote-footer presudo-hidden">
+							   <div class="media client-profile">
+								   <img class="mr-3" src="assets/images/clients/profile-2.jpg" alt="">
+							       <cite title="Source" class="quote-source d-inline-block font-style-normal pt-3">
+							           <span class="d-block">Cheryl Bell</span>
+							           <span class="d-block">Product Manager, Dropbox</span>
+							           <span class="d-block position-absolute source-link"><i class="fab fa-linkedin fa-2x mr-1" data-fa-transform="down-3"></i> <a class="text-secondary" href="#" target="_blank">View on Linkedin <i class="fas fa-external-link-alt ml-1" data-fa-transform="up-1"></i></a></span>
+							       </cite>
+							   </div><!--//media-->
+						  </footer>
+						</blockquote>
+			        </div>
+		        </div><!--//testimonial-item-->
+		        
+		        <div class="testimonial-item">				        
+			        <div class="position-relative p-5 shadow">
+				        <blockquote class="blockquote pl-4">
+						  <p class="mb-4">Steve is a great developer! Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto. </p>
+						  <i class="quote-icon fas fa-quote-left position-absolute text-primary"></i>
+						  <footer class="blockquote-footer presudo-hidden">
+							   <div class="media client-profile">
+								   <img class="mr-3" src="assets/images/clients/profile-3.jpg" alt="">
+							       <cite title="Source" class="quote-source d-inline-block font-style-normal pt-3">
+							           <span class="d-block">David Lucas</span>
+							           <span class="d-block">Product Manager, Dropbox</span>
+							           <span class="d-block position-absolute source-link"><i class="fab fa-linkedin fa-2x mr-1" data-fa-transform="down-3"></i> <a class="text-secondary" href="#" target="_blank">View on Linkedin <i class="fas fa-external-link-alt ml-1" data-fa-transform="up-1"></i></a></span>
+							       </cite>
+							   </div><!--//media-->
+						  </footer>
+						</blockquote>
+			        </div>
+		        </div><!--//testimonial-item-->
+		        
+		        <div class="testimonial-item">				        
+			        <div class="position-relative p-5 shadow">
+				        <blockquote class="blockquote pl-4">
+						  <p class="mb-4">Steve is a great developer! Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto.</p>
+						  <i class="quote-icon fas fa-quote-left position-absolute text-primary"></i>
+						  <footer class="blockquote-footer presudo-hidden">
+							   <div class="media client-profile">
+								   <img class="mr-3" src="assets/images/clients/profile-4.jpg" alt="">
+							       <cite title="Source" class="quote-source d-inline-block font-style-normal pt-3">
+							           <span class="d-block">Brandon Campbell</span>
+							           <span class="d-block">Product Manager, Airbnb</span>
+							           <span class="d-block position-absolute source-link"><i class="fab fa-linkedin fa-2x mr-1" data-fa-transform="down-3"></i> <a class="text-secondary" href="#" target="_blank">View on Linkedin <i class="fas fa-external-link-alt ml-1" data-fa-transform="up-1"></i></a></span>
+							       </cite>
+							   </div><!--//media-->
+						  </footer>
+						</blockquote>
+			        </div>
+		        </div><!--//testimonial-item-->
 
-		<footer class="footer text-center py-4">
-			<small class="copyright">Designed with <svg class="svg-inline--fa fa-heart fa-w-16" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="heart" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z"></path></svg><!-- <i class="fas fa-heart"></i> --> by <a href="https://mounirdagana.com" target="_blank">Mounir Dagana</a> for developers</small>
-		</footer>
-		
-	</div><!--//main-wrapper-->
+		        
+	        </div><!--//container-fluid-->
+	        
+	        
+        </div><!--//testimonials-->
+        
+        
+    </section>
+    
+    <section class="section-featured-projects py-5">
+        <div class="container">
+	        <h3 class="section-title font-weight-bold text-center mb-5">Featured Projects</h3>
+        
+	        <div class="project-cards row mb-5">
+		        <div class="col-12 col-lg-4">
+					<div class="card rounded-0 border-0 shadow-sm mb-5 mb-lg-0">
+						<div class="card-img-container position-relative">
+							<img class="card-img-top rounded-0" src="assets/images/projects/project-1-thumb.jpg" alt="">
+							<div class="card-img-overlay overlay-logo text-center">
+								<div class="project-logo"><img class="img-fluid w-50" src="assets/images/logos/logo-1-inverse.svg"></div>
+							</div>
+							<a class="card-img-overlay overlay-content text-left p-lg-4" href="project.html">
+								<h5 class="card-title font-weight-bold">Client: Google</h5>
+							    <p class="card-text">Project summary goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vel sapien quis nulla dictum euismod...</p>
+							</a>
+						</div>
+						<div class="card-body pb-0">
+							<h4 class="card-title text-truncate text-center mb-0"><a href="project.html">SaaS Product</a></h4>
+						</div>
+						
+						<div class="card-footer border-0 text-center bg-white pb-4">
+							<ul class="list-inline mb-0 mx-auto">
+						        <li class="list-inline-item"><span class="badge badge-secondary badge-pill">Angular</span></li>
+						        <li class="list-inline-item"><span class="badge badge-secondary badge-pill" >Django</span></li>
+						        <li class="list-inline-item"><span class="badge badge-secondary badge-pill">MongoDB</span></li>
+						        <li class="list-inline-item"><span class="badge badge-secondary badge-pill">HTML/CSS</span></li>
+							</ul>
+					    </div>
+				    </div><!--//card-->
+		        </div>
+		        <div class="col-12 col-lg-4">
+					<div class="card rounded-0 border-0 shadow-sm mb-5 mb-lg-0">
+						<div class="card-img-container position-relative">
+							<img class="card-img-top rounded-0" src="assets/images/projects/project-2-thumb.jpg" alt="">
+							<div class="card-img-overlay overlay-logo text-center">
+								<div class="project-logo"><img class="img-fluid w-50" src="assets/images/logos/logo-2-inverse.svg"></div>
+							</div>
+							<a class="card-img-overlay overlay-content text-left p-lg-4" href="project.html">
+								<h5 class="card-title font-weight-bold">Client: Basecamp</h5>
+							    <p class="card-text">Project summary goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vel sapien quis nulla dictum euismod...</p>
+							</a>
+						</div>
+						<div class="card-body pb-0">
+							<h4 class="card-title text-truncate text-center mb-0"><a href="project.html">Webapp Development</a></h4>
+						</div>
+						
+						<div class="card-footer border-0 text-center bg-white pb-4">
+							<ul class="list-inline mb-0 mx-auto">
+						        <li class="list-inline-item"><span class="badge badge-secondary badge-pill" >Rails</span></li>
+						        <li class="list-inline-item"><span class="badge badge-secondary badge-pill">jQuery</span></li>
+						        <li class="list-inline-item"><span class="badge badge-secondary badge-pill">PostgresSQL</span></li>
+						        <li class="list-inline-item"><span class="badge badge-secondary badge-pill">HTML/LESS</span></li>
+							</ul>
+					    </div>
+				    </div><!--//card-->
+		        </div>
+		        <div class="col-12 col-lg-4">
+					<div class="card rounded-0 border-0 shadow-sm mb-5 mb-lg-0">
+						<div class="card-img-container position-relative">
+							<img class="card-img-top rounded-0" src="assets/images/projects/project-3-thumb.jpg" alt="">
+							<div class="card-img-overlay overlay-logo text-center">
+								<div class="project-logo"><img class="img-fluid w-50" src="assets/images/logos/logo-3-inverse.svg"></div>
+							</div>
+							<a class="card-img-overlay overlay-content text-left p-lg-4" href="project.html">
+								<h5 class="card-title font-weight-bold">Client: Airbnb</h5>
+							    <p class="card-text">Project summary goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vel sapien quis nulla dictum euismod...</p>
+							</a>
+						</div>
+						<div class="card-body pb-0">
+							<h4 class="card-title text-truncate text-center mb-0"><a href="project.html">Mobile app development</a></h4>
+						</div>
+						
+						<div class="card-footer border-0 text-center bg-white pb-4">
+							<ul class="list-inline mb-0 mx-auto">
+						        <li class="list-inline-item"><span class="badge badge-secondary badge-pill">React</span></li>
+						        <li class="list-inline-item"><span class="badge badge-secondary badge-pill" >Python</span></li>
+						        <li class="list-inline-item"><span class="badge badge-secondary badge-pill">MySQL</span></li>
+						        <li class="list-inline-item"><span class="badge badge-secondary badge-pill">Webpack</span></li>
+							</ul>
+					    </div>
+				    </div><!--//card-->
+		        </div>
+			    
+	        </div><!--//row-->
+	        <div class="text-center">
+	            <a class="btn btn-primary" href="projects.html">View all projects</a>
+	        </div>
+        </div><!--///container-->
+        
+    </section>
+    
+    <section class="section-latest-blog py-5">
+        <div class="container">
+	        <h3 class="section-title font-weight-bold text-center mb-5">Latest Blog Posts</h3>
+	        
+	        <div class="blog-cards row">
+		        <div class="col-12 col-lg-6">
+			        <div class="card rounded-0 border-0 shadow-sm mb-5">
+						<div class="card-img-container position-relative">
+					        <img class="card-img-top rounded-0" src="assets/images/blog/blog-post-thumb-1.jpg" alt="">
+					        <div class="card-img-overlay overlay-mask overlay-logo text-center p-0">
+						        <div class="overlay-mask-content text-center w-100 position-absolute">
+								    <a class="btn btn-primary" href="blog-post.html">Read more</a>
+						        </div>
+						        <a class="overlay-mask-link position-absolute w-100 h-100" href="blog-post.html"></a>
+							</div>
+						</div>
+						<div class="card-body pb-4">
+							
+							<h4 class="card-title text-truncate mb-2"><a href="blog-post.html">How to Create an Angular Library</a></h4>
+							<div class="card-text">
+								<ul class="meta list-inline mb-1">
+									<li class="list-inline-item mr-3"><i class="far fa-clock mr-2"></i>June 26, 2018</li>
+									<li class="list-inline-item"><i class="fas fa-comment mr-2"></i><a href="#">4 Comments</a></li>
+								</ul>
+								<div class="excerpt"> Blog post intro goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vel sapien quis nulla dictum euismod. Vivamus sed mi vitae dui iaculis venenatis...</div>
+							</div>
+						</div>
+				    </div><!--//card-->
+		        </div>
+		        
+		        <div class="col-12 col-lg-6">
+			        <div class="card rounded-0 border-0 shadow-sm mb-5">
+						<div class="card-img-container position-relative">
+					        <img class="card-img-top rounded-0" src="assets/images/blog/blog-post-thumb-2.jpg" alt="">
+					        <div class="card-img-overlay overlay-mask overlay-logo text-center p-0">
+						        <div class="overlay-mask-content text-center w-100 position-absolute">
+								    <a class="btn btn-primary" href="blog-post.html">Read more</a>
+						        </div>
+						        <a class="overlay-mask-link position-absolute w-100 h-100" href="blog-post.html"></a>
+							</div>
+						</div>
+						<div class="card-body pb-4">
+							
+							<h4 class="card-title text-truncate mb-2"><a href="blog-post.html">React, Bootstrap, and Angular- The Basics</a></h4>
+							<div class="card-text">
+								<ul class="meta list-inline mb-1">
+									<li class="list-inline-item mr-3"><i class="far fa-clock mr-2"></i>June 18, 2018</li>
+									<li class="list-inline-item"><i class="fas fa-comment mr-2"></i><a href="#">8 Comments</a></li>
+								</ul>
+								<div class="excerpt"> Blog post intro goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vel sapien quis nulla dictum euismod. Vivamus sed mi vitae dui iaculis venenatis...</div>
+							</div>
+						</div>
+				    </div><!--//card-->
+		        </div>
+		        
+		        
+		        <div class="col-12 col-lg-6">
+			        <div class="card rounded-0 border-0 shadow-sm mb-5">
+						<div class="card-img-container position-relative">
+					        <img class="card-img-top rounded-0" src="assets/images/blog/blog-post-thumb-3.jpg" alt="">
+					        <div class="card-img-overlay overlay-mask overlay-logo text-center p-0">
+						        <div class="overlay-mask-content text-center w-100 position-absolute">
+								    <a class="btn btn-primary" href="blog-post.html">Read more</a>
+						        </div>
+						        <a class="overlay-mask-link position-absolute w-100 h-100" href="blog-post.html"></a>
+							</div>
+						</div>
+						<div class="card-body pb-4">
+							
+							<h4 class="card-title text-truncate mb-2"><a href="blog-post.html">Best Practices for Code Review</a></h4>
+							<div class="card-text">
+								<ul class="meta list-inline mb-1">
+									<li class="list-inline-item mr-3"><i class="far fa-clock mr-2"></i>May 7, 2018</li>
+									<li class="list-inline-item"><i class="fas fa-comment mr-2"></i><a href="#">23 Comments</a></li>
+								</ul>
+								<div class="excerpt"> Blog post intro goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vel sapien quis nulla dictum euismod. Vivamus sed mi vitae dui iaculis venenatis...</div>
+							</div>
+						</div>
+				    </div><!--//card-->
+		        </div>
+		        
+		        <div class="col-12 col-lg-6">
+			        <div class="card rounded-0 border-0 shadow-sm mb-5">
+						<div class="card-img-container position-relative">
+					        <img class="card-img-top rounded-0" src="assets/images/blog/blog-post-thumb-4.jpg" alt="">
+					        <div class="card-img-overlay overlay-mask overlay-logo text-center p-0">
+						        <div class="overlay-mask-content text-center w-100 position-absolute">
+								    <a class="btn btn-primary" href="blog-post.html">Read more</a>
+						        </div>
+						        <a class="overlay-mask-link position-absolute w-100 h-100" href="blog-post.html"></a>
+							</div>
+						</div>
+						<div class="card-body pb-4">
+							
+							<h4 class="card-title text-truncate mb-2"><a href="blog-post.html">Learn React Components</a></h4>
+							<div class="card-text">
+								<ul class="meta list-inline mb-1">
+									<li class="list-inline-item mr-3"><i class="far fa-clock mr-2"></i>Apr 25, 2018</li>
+									<li class="list-inline-item"><i class="fas fa-comment mr-2"></i><a href="#">18 Comments</a></li>
+								</ul>
+								<div class="excerpt"> Blog post intro goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vel sapien quis nulla dictum euismod. Vivamus sed mi vitae dui iaculis venenatis...</div>
+							</div>
+						</div>
+				    </div><!--//card-->
+		        </div>
+		        
+		        
+	        </div><!--//blog-cards-->
 
-	<!-- *****CONFIGURE STYLE (REMOVE ON YOUR PRODUCTION SITE)****** -->  
-	<div id="config-panel" class="config-panel d-none d-lg-block">
-		<div class="panel-inner">
-			<a id="config-trigger" class="config-trigger config-panel-hide text-center" href="#"><i class="fas fa-cog mx-auto" data-fa-transform="down-6" ></i></a>
-			<h5 class="panel-title">Choose Colour</h5>
-			<ul id="color-options" class="list-inline mb-0">
-				<li class="theme-1 active list-inline-item"><a data-style="assets/css/theme-1.css" href="#"></a></li>
-				<li class="theme-2  list-inline-item"><a data-style="assets/css/theme-2.css" href="#"></a></li>
-				<li class="theme-3  list-inline-item"><a data-style="assets/css/theme-3.css" href="#"></a></li>
-				<li class="theme-4  list-inline-item"><a data-style="assets/css/theme-4.css" href="#"></a></li>
-				<li class="theme-5  list-inline-item"><a data-style="assets/css/theme-5.css" href="#"></a></li>
-				<li class="theme-6  list-inline-item"><a data-style="assets/css/theme-6.css" href="#"></a></li>
-				<li class="theme-7  list-inline-item"><a data-style="assets/css/theme-7.css" href="#"></a></li>
-				<li class="theme-8  list-inline-item"><a data-style="assets/css/theme-8.css" href="#"></a></li>
-				<li class="theme-9  list-inline-item"><a data-style="assets/css/theme-9.css" href="#"></a></li>
-				<li class="theme-10  list-inline-item"><a data-style="assets/css/theme-10.css" href="#"></a></li>
-			</ul>
-			<a id="config-close" class="close" href="#"><i class="fa fa-times-circle"></i></a>
-		</div><!--//panel-inner-->
-	</div><!--//configure-panel-->
+	        
+        </div>
+        
+        <div class="text-center">
+            <a class="btn btn-primary" href="blog.html">View all posts</a>
+        </div>
+        
+        
+    </section>
+    
+    <section class="section-press py-5 bg-white">
+        <div class="container">
+	        <h3 class="section-title font-weight-bold text-center mb-5">Featured in</h3>
+	        <div class="press-logos row">
+		        <div class="align-self-center press-logo px-4 px-lg-3 col-6 col-lg-3 mr-0 px-md-5 px-lg-5 mb-3 mb-lg-0"><a class="logo-link" href="#" target="_blank"><img class="img-fluid svg-ie-fix" src="assets/images/logos/press-logo-1.png"></a></div>
+		        <div class="align-self-center press-logo px-4 px-lg-3  col-6 col-lg-3 mr-0 px-md-5 px-lg-5 mb-3 mb-lg-0"><a class="logo-link" href="#" target="_blank"><img class="img-fluid svg-ie-fix" src="assets/images/logos/press-logo-2.png"></a></div>
+		        <div class="align-self-center press-logo px-4 px-lg-3  col-6 col-lg-3 mr-0 px-md-5 px-lg-5 mb-3 mb-lg-0"><a class="logo-link" href="#" target="_blank"><img class="img-fluid svg-ie-fix" src="assets/images/logos/press-logo-3.png"></a></div>
+		        <div class="align-self-center press-logo px-4 px-lg-3 col-6 col-lg-3 mr-0 px-md-5 px-lg-5 mb-3 mb-lg-0"><a class="logo-link" href="#" target="_blank"><img class="img-fluid svg-ie-fix" src="assets/images/logos/press-logo-4.png"></a></div>
+	        </div>
+        </div><!--//container-->
+    </section>
+    
+	<section class="section-cta py-5 bg-primary text-white">
+		<div class="container">
+			<div class="text-center">
+			    <img class="profile-small d-inline-block mx-auto rounded-circle mb-2" src="assets/images/profile.jpg" alt="">
+		    </div>
+		    <h3 class="section-title font-weight-bold text-center mb-2">Interested in hiring me for your project?</h3>
+		    <div class="section-intro mx-auto text-center mb-3">
+			    Looking for an experienced full-stack developer to build your web app or ship your software product? To start an initial chat, just drop me an email at <a class="link-on-bg" href="#">steve.doe@youremail.com</a> or use the <a class="link-on-bg" href="contact.html">form on the contact page</a>.
+		    </div>
+		    <div class="text-center">
+		        <a class="theme-btn-on-bg btn" href="contact.html">Let's Talk</a>
+		    </div>
+		</div><!--//container-->
+	</section>
+    
+    <footer class="footer text-light text-center py-2">
+	    <small class="copyright">Template Copyright &copy; <a class="text-light" href="https://themes.3rdwavemedia.com/" target="_blank">3rd Wave Media</a></small>
+    </footer>
+    
+    
+    <!-- *****CONFIGURE STYLE (REMOVE ON YOUR PRODUCTION SITE)****** -->  
+    <div id="config-panel" class="config-panel d-none d-lg-block">
+        <div class="panel-inner">
+            <a id="config-trigger" class="config-trigger config-panel-hide text-center" href="#"><i class="fas fa-cog mx-auto" data-fa-transform="down-6" ></i></a>
+            <h5 class="panel-title">Choose Colour</h5>
+            <ul id="color-options" class="list-inline mb-0">
+                <li class="theme-1 active list-inline-item"><a data-style="assets/css/theme-1.css" href="#"></a></li>
+                <li class="theme-2  list-inline-item"><a data-style="assets/css/theme-2.css" href="#"></a></li>
+                <li class="theme-3  list-inline-item"><a data-style="assets/css/theme-3.css" href="#"></a></li>
+                <li class="theme-4  list-inline-item"><a data-style="assets/css/theme-4.css" href="#"></a></li>
+                <li class="theme-5  list-inline-item"><a data-style="assets/css/theme-5.css" href="#"></a></li>
+                <li class="theme-6  list-inline-item"><a data-style="assets/css/theme-6.css" href="#"></a></li>
+                <li class="theme-7  list-inline-item"><a data-style="assets/css/theme-7.css" href="#"></a></li>
+                <li class="theme-8  list-inline-item"><a data-style="assets/css/theme-8.css" href="#"></a></li>
+                <li class="theme-9  list-inline-item"><a data-style="assets/css/theme-9.css" href="#"></a></li>
+                <li class="theme-10  list-inline-item"><a data-style="assets/css/theme-10.css" href="#"></a></li>
+                <li class="theme-11  list-inline-item"><a data-style="assets/css/theme-11.css" href="#"></a></li>
+                <li class="theme-12  list-inline-item"><a data-style="assets/css/theme-12.css" href="#"></a></li>
+            </ul>
+            <a id="config-close" class="close" href="#"><i class="fa fa-times-circle"></i></a>
+        </div><!--//panel-inner-->
+    </div><!--//configure-panel-->
 
-	<!-- Javascript -->          
-	<script src="assets/plugins/jquery-3.4.1.min.js"></script>
-	<script src="assets/plugins/popper.min.js"></script> 
-	<script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
-	
-	<script src="assets/plugins/tiny-slider/min/tiny-slider.js"></script>
-	<script src="assets/js/testimonials.js"></script>
+    
+       
+    <!-- Javascript -->          
+    <script type="text/javascript" src="assets/plugins/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/popper.min.js"></script> 
+    <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>  
+    <script type="text/javascript" src="assets/plugins/back-to-top.js"></script>    
+    
+    <!-- Page Specific JS -->
+    <script type="text/javascript" src="assets/plugins/flickity/flickity.pkgd.min.js"></script> 
 
+    <!-- Custom JS -->
+    <script type="text/javascript" src="assets/js/main.js"></script>
+    <script type="text/javascript" src="assets/js/flickity-custom.js"></script>
+    
+    <!-- Style Switcher (REMOVE ON YOUR PRODUCTION SITE) -->
+    <script type="text/javascript" src="assets/js/demo/style-switcher.js"></script>     
+    
 
-	<!-- Style Switcher (REMOVE ON YOUR PRODUCTION SITE) -->
-	<script src="assets/js/demo/style-switcher.js"></script>  
-	
-	<!-- Dark Mode -->
-	<script src="assets/plugins/js-cookie.min.js"></script>
-	<script src="assets/js/dark-mode.js"></script>   
-	
 </body>
+
+<!-- Mirrored from themes.3rdwavemedia.com/instance/bs4/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 05 Sep 2020 14:05:38 GMT -->
 </html> 
 

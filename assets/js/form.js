@@ -11,7 +11,7 @@ $(document).ready(function() {
 			},
 			email: {
 				required: 'Please enter your email' //You can customise this message
-			},		
+			},			
 			message: {
 				required: 'Please enter your message' //You can customise this message
 			}
