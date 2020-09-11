@@ -11328,12 +11328,13 @@ hr {
 }
 
 .profile-teaser .tagline {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: 300
 }
 
 .overview-section .item {
-    margin-bottom: 2rem
+    margin-bottom: 2rem;
+    text-align:center;
 }
 
 .overview-section .item-desc {
