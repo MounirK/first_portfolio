@@ -11329,17 +11329,19 @@ hr {
 
 .profile-teaser .tagline {
     font-size: 1.3rem;
-    font-weight: 300
+    font-weight: 300;
+    
 }
 
 .overview-section .item {
     margin-bottom: 2rem;
-    text-align:center;
+    text-align: center;
 }
 
 .overview-section .item-desc {
     color: #4f4f4f;
     font-size: 0.875rem
+    
 }
 
 .overview-section .item-icon {
